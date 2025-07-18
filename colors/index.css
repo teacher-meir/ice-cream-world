@@ -2,7 +2,7 @@ body {
     font-family: Forte, Helvetica, sans-serif;
     --other-color: rgb(211 138 44);
     --same-color: rgb(217 181 134);
-    background-image:url(../assets/images/noa/1x/רקע\ לעמוד\ המשחקים.png);
+    background-image: url(../assets/images/noa/1x/רקע\ לעמוד\ המשחקים.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,13 +12,13 @@ body {
 
 
 
-div.flex-col > div {
+div.flex-col>div {
     background-image: url(./assets/ice-cream.png);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--same-color);
-    
+
     height: 200px;
     width: 200px;
     margin: 10px;
@@ -38,7 +38,7 @@ div.flex-col > div {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    align-items:center;
+    align-items: center;
 }
 
 h1 {
@@ -53,14 +53,14 @@ p {
     color: #771b2c;
 }
 
-.header{
+.header {
 
     display: flex;
     flex-direction: row;
 
-  }
-  
-  .menu-img {
+}
+
+.menu-img {
     width: 10vh;
     height: 10vh;
     border-radius: 10%;
@@ -71,10 +71,10 @@ p {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  }
+}
 
-  .nav-list-item {
-    position: relative;
+.nav-list-item {
+    position: fixed;
     left: 30px;
     top: 30px;
-  }
+}
