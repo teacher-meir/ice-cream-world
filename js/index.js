@@ -99,9 +99,9 @@ function homePage() {
     const firstCol = document.querySelector('.oneColum');
     const secondCol = document.querySelector('.towColum');
     const game = document.querySelectorAll('.game');
-    const title = document.querySelector('.titleHome');
+    const title = document.querySelector('.title');
     const home = document.querySelector('.home');
-    const buttons = document.querySelector('.containBtn');
+
     home.style.display = 'flex';
     title.style.display = 'block';
     body.classList.add('body-home')
