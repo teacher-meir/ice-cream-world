@@ -14,11 +14,11 @@ function closeModel(event) {
     }
 }
 
-function showSignUp(event) {
+function showSignUp() {
     document.getElementById('sign-up').style.display = 'block';
 }
 
-function closeSignUp(event) {
+function closeSignUp() {
     document.getElementById('sign-up').style.display = 'none';
 }
 
@@ -29,11 +29,11 @@ const modal = document.getElementById('sign-up');
 window.onclick = closeModel;
 
 //sign in
-function showLogin(event) {
+function showLogin() {
     document.getElementById('sign-in').style.display = 'block';
 }
 
-function closeSignIn(event) {
+function closeSignIn() {
     document.getElementById('sign-in').style.display = 'none';
 }
 
@@ -57,8 +57,6 @@ function login(event) {
         return;
     }
 }
-
-
 
 function register(event) {
     event.preventDefault();
@@ -92,7 +90,7 @@ function register(event) {
     window.open('./menu.html', '_self');
 }
 
-//פונקציההמארגנת את דף הבית
+//פונקציה המארגנת את דף הבית
 function homePage() {
     const body = document.querySelector('body');
     const grid = document.querySelector('.grid-container');
@@ -116,13 +114,11 @@ function homePage() {
     title.classList.add('title');
 }
 
-function changeImg(event)
-{
+function changeImg(event) {
     event.currentTarget.src = `./assets/images/noa/1x/${event.currentTarget.id}.png`;
 }
 
-function firstImg(event)
-{
+function firstImg(event) {
     current = event.currentTarget;
     current.src = `./assets/images/noa/1x/${current.id.substring(0, current.id.length - 1)}.png`;
 }
